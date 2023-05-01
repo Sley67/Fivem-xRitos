@@ -3,6 +3,8 @@
 # ⚠️ USE AT YOUR OWN RISK
 xRitos - is a free cheat for fivem and cool it's undetected by fiveguard etc.
 
+Don't work for Windows 8.1, upgrade to Windows 10 or Windows 11
+
 # ➡️ Showcase
 ![image](https://cdn.discordapp.com/attachments/1102245155714642110/1102254066551246969/image.png)
 
