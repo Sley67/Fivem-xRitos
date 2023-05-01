@@ -1,10 +1,10 @@
-# LunacyProject-v2.12
+# xRitos
 
 # ⚠️ USE AT YOUR OWN RISK
-Lunacy Project - is a free cheat for fivem and cool it's undetected by fiveguard etc.
+xRitos - is a free cheat for fivem and cool it's undetected by fiveguard etc.
 
 # ➡️ Showcase
-![image](https://user-images.githubusercontent.com/127592836/225115347-b2a19695-61d7-4d42-bbd4-c8e72109a8b9.png)
+![image](https://cdn.discordapp.com/attachments/1102245155714642110/1102254066551246969/image.png)
 
 
 ## <a id="features"></a>⚙️ 〢 Features
@@ -39,7 +39,7 @@ Lunacy Project - is a free cheat for fivem and cool it's undetected by fiveguard
 
 ---
 
-## <a id="download"></a>📁 〢 Download compiled version [here](https://discord.gg/rTjQvxyS37)
+## <a id="download"></a>📁 〢 Download compiled version [here](https://discord.gg/b7b6TncJR9)
 
 If you find any bugs, please let me know.
-My discord DeviL#8097
+My discord Sley#06677
