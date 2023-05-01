@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="MainScript.hpp" />
+    <ClInclude Include="UI\AbstractOption.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseOption.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbstractSubmenu.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseSubmenu.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BoolOption.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ChooseOption.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Utilis\stdfax</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossmap.hpp">
+      <Filter>Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomText.hpp">
+      <Filter>Main\Scripts\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.hpp">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Main\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>Main\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="LogScript.hpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.hpp">
+      <Filter>Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="Lists.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Natives.hpp">
+      <Filter>Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\NumberOption.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.hpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerSubmenu.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularOption.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularSubmenu.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptCallback.hpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.hpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGlobal.hpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TextBox.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>Utilis</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Utilis</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Utilis</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SubOption.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.hpp">
+      <Filter>Menu\Options\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryEdit.h">
+      <Filter>Main\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Main\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Headermanager.h">
+      <Filter>Menu\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.hpp">
+      <Filter>Menu\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic.h">
+      <Filter>Utilis\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Utilis\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="TIck.h">
+      <Filter>Main\Scripts\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation.h">
+      <Filter>Utilis</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnSpoof.hpp">
+      <Filter>Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.h">
+      <Filter>Menu\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="thxhydronite.h">
+      <Filter>Utilis\stdfax</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Main\Features\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="network stuff.h">
+      <Filter>Main\Features\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Fibers.hpp">
+      <Filter>Utilis\Fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Main\Features\Loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainScript.cpp" />
+    <ClCompile Include="Common.cpp">
+      <Filter>Utilis\stdfax</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomText.cpp">
+      <Filter>Main\Scripts\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Main\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Main\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="LogScript.cpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptCallback.cpp">
+      <Filter>Main\Scripts\Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryEdit.cpp">
+      <Filter>Main\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>Menu\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Headermaneger.cpp">
+      <Filter>Menu\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic.cpp">
+      <Filter>Utilis\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Main\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Main\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle Spawner.cpp">
+      <Filter>Main\Scripts\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Main\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Main\Features\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons.cpp">
+      <Filter>Main\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth.cpp">
+      <Filter>Menu\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Main\Features\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Recovery.cpp">
+      <Filter>Main\Features\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Main\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="local.cpp">
+      <Filter>Main\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibers.cpp">
+      <Filter>Utilis\Fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Main\Features\Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Natives">
+      <UniqueIdentifier>{c760f3b2-2fd0-44dd-b4a2-08a3b801021b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{680acfe8-9847-49e3-936b-5a25fb643067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilis">
+      <UniqueIdentifier>{7770bd52-b7d2-4eaf-95f1-fb6abb31ccbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{6fde4d47-c179-4aa9-88d8-942cdf62b1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Options">
+      <UniqueIdentifier>{77aab5f7-c06a-44cb-b4ec-38f59f83349d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Interface">
+      <UniqueIdentifier>{76501b00-c882-440b-8088-c6d109d33d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Options\Headers">
+      <UniqueIdentifier>{df17c78a-9f34-4015-bc93-27035e6a9fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilis\stdfax">
+      <UniqueIdentifier>{69dc9cd8-594d-4c0c-967d-69ed042285ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{a2f46041-f7c0-4d1a-b994-7abf10d95b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Hooking">
+      <UniqueIdentifier>{2c72bc43-890c-467a-851e-80932cd3492c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scripts">
+      <UniqueIdentifier>{03b69a0b-08b5-4b01-a514-3634fea54c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scripts\Essential">
+      <UniqueIdentifier>{2e24e14c-cbd7-4f0b-867b-a8379d4b3966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Scripts\Extra">
+      <UniqueIdentifier>{d2f0708d-e913-4337-9b7e-d47e649b5cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Memory">
+      <UniqueIdentifier>{af24e6e8-e039-4344-a6b8-cac518ac7e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilis\Functions">
+      <UniqueIdentifier>{5e7ac678-bb26-4032-b04d-077b106d13d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Features">
+      <UniqueIdentifier>{2fe5f8c3-3c66-46a3-9490-d9ad4ac8c9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMenu">
+      <UniqueIdentifier>{4b8bdccf-2fd6-408c-8b5b-38093382c20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Features\Config">
+      <UniqueIdentifier>{4e17d14f-733e-4644-bd2c-a823c1b1a238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Auth">
+      <UniqueIdentifier>{0374416e-34b2-4eb7-aec7-96dc988a9052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Features\Network">
+      <UniqueIdentifier>{a317b81e-3196-45e5-b4e9-03cd65a54a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilis\Fibers">
+      <UniqueIdentifier>{5d55c0c4-a662-479e-a900-db52058ab504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Features\Loader">
+      <UniqueIdentifier>{71f73e96-edd7-49ae-8c90-097854bc3eca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="ReturnSpoof.asm">
+      <Filter>Natives</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
